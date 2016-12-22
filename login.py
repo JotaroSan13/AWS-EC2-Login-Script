@@ -75,15 +75,15 @@ if instance_user == 'exit' or instance_selection == 'exit':
 
 # Let user know Login is starting
 ssh_instance = ec2info[instance_selection]
-time.sleep(1)  # delays for 2 seconds
+time.sleep(1)  # delays for 1 seconds
 print ("Preparing to SSH into {0} ({1})".format(ssh_instance['Name'], ssh_instance['Public IP']))
 
 # Set Key location
 ssh_key = "{0}{1}.pem".format(key_folder, ssh_instance['Key Pair'])
 ssh_ip = ssh_instance['Public IP'].replace(".", "-")
 
-time.sleep(1)  # delays for 2 seconds
+time.sleep(1)  # delays for 1 seconds
 print ("Using Key {0}".format(ssh_key))
-time.sleep(1)  # delays for 2 seconds
+time.sleep(1)  # delays for 1 seconds
 
 os.system('ssh -i "{0}" {1}@ec2-{2}.compute-1.amazonaws.com'.format(ssh_key, instance_user, ssh_ip))
