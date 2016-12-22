@@ -6,7 +6,7 @@ import sys
 from collections import defaultdict
 
 # Set default variables
-key_folder = '/Users/jordanwoodard/Desktop/Certificate/'
+key_folder = '/Path/To/Keys.PEM'
 
 # Create the Build Functionality
 ec2 = boto3.resource('ec2')
