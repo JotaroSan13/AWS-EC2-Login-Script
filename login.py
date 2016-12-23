@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #  Import the Boto to connect to AWS
 import boto3
 import os
