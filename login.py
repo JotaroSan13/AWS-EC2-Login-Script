@@ -62,7 +62,7 @@ for instance_id, instance in ec2info.items():
     print("------")
 
 # Get user Input
-instance_selection = raw_input('Select EC2 Instance: ')
+instance_selection = int( raw_input('Select EC2 Instance: ') )
 instance_user = raw_input('Select Login User: ')
 
 # If selected values are empty, close
