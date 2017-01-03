@@ -5,9 +5,6 @@ This script in conjunction with AWS CLI will allow users to set a directory to t
 1. AWS CLI ( for help with this please visit https://aws.amazon.com/cli/)
 2. Python 2.7 or higher
 
-##Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
 
 ##Instructions
 
@@ -16,6 +13,8 @@ Running the file login.py in terminal will prompt you load all of your EC2 insta
 2. SSH Login User
 
 Once both fields have been added, it will verify the information and perform a SSH connection into the EC2 box.
+
+Be sure to add the Key Folder location to the script prior to running.
 
 ##Tip
 
