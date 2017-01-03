@@ -4,6 +4,7 @@ This script in conjunction with AWS CLI will allow users to set a directory to t
 ##Requirements
 1. AWS CLI ( for help with this please visit https://aws.amazon.com/cli/)
 2. Python 2.7 or higher
+3. Boto3 — pip install boto3
 
 
 ##Instructions
