@@ -8,7 +8,7 @@ import sys
 from collections import defaultdict
 
 # Set default variables
-key_folder = '/Path/To/Keys.PEM'
+key_folder = '/Path/To/Key_Files/Keys.PEM'
 
 # Create the Build Functionality
 ec2 = boto3.resource('ec2')
